@@ -1,0 +1,40 @@
+.fixed-height {
+  height: 100px;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+.scroll-box {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: lightgreen;
+}
+
+.ellipsis-text {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: lightcoral;
+}
+
+.overflow-x {
+  width: 200px;
+  height: 100px;
+  overflow-x: scroll;
+  background-color: lightyellow;
+}
+
+.overflow-y {
+  width: 100px;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: lightgray;
+}
+
+.responsive-container {
+  max-width: 100%;
+  overflow: auto;
+  background-color: lightpink;
+}

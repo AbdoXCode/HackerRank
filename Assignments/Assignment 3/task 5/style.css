@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://d3d0lqu00lnqvz.cloudfront.net/media/new_article_images/GeographyOfBC/RockyMountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* remove the styles under to be able to see the image */
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.image {
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://d3d0lqu00lnqvz.cloudfront.net/media/new_article_images/GeographyOfBC/RockyMountains.jpg");
+  background-position: center;
+
+  background-attachment: fixed;
+}
+.blended {
+  height: 100vh;
+
+  background-blend-mode: multiply;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

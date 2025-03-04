@@ -1,0 +1,71 @@
+.animated-div {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 2px;
+  background-color: red;
+  animation: move 5s infinite;
+}
+.animated-button {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: red;
+  animation: animated-button 5s 3s infinite;
+  border: none;
+  cursor: pointer;
+}
+.bouncing-box {
+  margin-top: 150px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  background-color: yellow;
+
+  animation: bounce 2s infinite;
+}
+.hover-animate {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: aqua;
+}
+.hover-animate:hover {
+  animation: animated-button 5s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(90vw);
+  }
+}
+@keyframes animated-button {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
