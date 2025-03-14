@@ -1,0 +1,105 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #081b29;
+  color: #ededed;
+}
+.header {
+  padding: 0 20px 0 50px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+}
+.nav {
+  padding-right: 100px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  margin: 0 20px 0 20px;
+  font-weight: 500;
+  color: #ededed;
+  text-decoration: none;
+}
+.nav li a:hover,
+.nav li a.active {
+  color: #00abf0;
+}
+.home {
+  display: flex;
+  height: 75vh;
+  align-items: center;
+
+  padding: 0 10%;
+}
+.home-content {
+  max-width: 600px;
+}
+.home-content h1 {
+  margin-bottom: 0;
+  font-size: 50px;
+}
+.home-content h3 {
+  margin-top: 0;
+  color: #00abf0;
+  font-size: 30px;
+}
+.home-content p {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.home-content .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin-bottom: 100px;
+}
+.buttons a {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 35px 12px 35px;
+  background-color: transparent;
+  color: #00abf0;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 2px solid #00abf0;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.buttons a:hover,
+.buttons a.active {
+  color: #081b29;
+  background-color: #00abf0;
+}
+.home-social {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.home-social a {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00abf0;
+  color: #00abf0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+.home-social a:hover {
+  background-color: #00abf0;
+  color: #081b29;
+}
