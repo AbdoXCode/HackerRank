@@ -1,1 +1,1 @@
-"# HackerRank" 
+HackerRank Asignments and Tasks.
